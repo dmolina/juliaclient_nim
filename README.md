@@ -29,9 +29,10 @@ For instance, with a script that load packages CSV and DataFrame:
 ```sh
 $ time jclient_julia test.jl 7days.csv 
 ...
+
 real	0m1.389s
 user	0m0.489s
-sys	    0m0.333s
+sys   0m0.333s
 ```
 
 While using jclient_julia it takes only (with juliaserver loaded):
@@ -41,7 +42,7 @@ $ time jclient_julia test.jl 7days.csv
 ...
 real	0m0.443s
 user	0m0.511s
-sys	    0m0.292s
+sys   0m0.292s
 ```
 
 The half of second is due to running the julia interpreter. 
@@ -54,6 +55,6 @@ $ time jclient test.jl 7days.csv
 ...
 real	0m0.019s
 user	0m0.004s
-sys	    0m0.007s
+sys   0m0.007s
 ```
 
