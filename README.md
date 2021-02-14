@@ -24,6 +24,16 @@ file:
 julia -e 'using DaemonMode; runargs()' $*
 ```
 
+# Compile and install the program
+
+1. Download nim from https://nim-lang.org/, and 
+2. git clone https://github.com/dmolina/juliaclient_nim.git
+3. cd juliaclient_nim
+4. nimble install
+5. copy jclient OUTPUT (where OUTPUT is a directory in your PATH).
+
+# Benchmark
+
 For instance, with a script that load packages CSV and DataFrame:
 
 ```sh
